@@ -28,9 +28,10 @@
     }
     
     div {
-      width: 310px;
-      padding: 40px;
-      height: 70%;
+      width: 350px;
+      height: 500px;
+      padding: 50px;
+      border-radius: 10px;
     }
 
     .card1 {
@@ -49,24 +50,24 @@
       margin-top: 10%;
       margin-bottom: 10%;
       font-family: 'Big Shoulders Display';
-      font-weight: 700;
       font-size: 50px;
+      font-weight: 700;
       color: hsl(0, 0%, 95%);
     }
 
     p {
-      margin-bottom: 25%;
-      color: hsla(0, 0%, 100%, 0.75);
+      margin-bottom: 40%;
       font-size: 15px;
       line-height: 25px;
+      color: hsla(0, 0%, 100%, 0.75);
     }
 
     button {
-      background-color: hsl(0, 0%, 95%);
       border-radius: 30px;
-      width: 50%;
-      height: 13%;
+      width: 180px;
+      height: 50px;
       border: none;
+      background-color: hsl(0, 0%, 95%);
     }
 
     .botao1 {
@@ -81,29 +82,45 @@
       color: hsl(179, 100%, 13%);
     }
 
-    @media screen{
+    .botao1:hover {
+      background-color: hsl(31, 77%, 52%);
+      border: solid 1px #ffffff;
+      color: #ffffff;
+      cursor: pointer;
+    }
+
+    .botao2:hover {
+      background-color: hsl(184, 100%, 22%);
+      border: solid 1px #ffffff;
+      color: #ffffff;
+      cursor: pointer;
+    }
+
+    .botao3:hover {
+      background-color: hsl(179, 100%, 13%);
+      border: solid 1px #ffffff;
+      color: #ffffff;
+      cursor: pointer;
+    }
+
+    @media (max-width: 1100px){
     body {
       display: flex;
       flex-wrap: wrap;
     } 
 
     div {
-      width: 310px;
-      padding: 20px;
-      height: 65%;
-    }
-
-    h2 {
-      margin-top: 10%;
-      margin-bottom: 10%;
-    }
-
-    p {
-      margin-bottom: 15%;
+      width: 350px;
+      height: 500px;
+      padding: 50px;
     }
 
     button {
-      width: 50%;
+      border-radius: 30px;
+      width: 180px;
+      height: 50px;
+      border: none;
+      background-color: hsl(0, 0%, 95%)
     }
   }
   </style>
